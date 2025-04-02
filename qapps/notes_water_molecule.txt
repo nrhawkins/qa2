@@ -1,0 +1,24 @@
+basis sets to check: 
+STO-3G, 6-31G, CC-PVDZ, AND-L-VDZP
+
+active space H2O molecule:
+HOMO-2, HOMO-1, LUMO, LUMO+1
+
+exclude: HOMO orbital with lone pair
+HOMO is not significantly correlated with the other valence orbitals
+
+pyscf: 
+-------------------------------------------------
+
+atom = """
+O 0,0,0
+H 0,0,.735
+H 0,.735, 0
+"""
+
+symmetry = 1, enable or disable
+
+
+
+
+
