@@ -1,0 +1,39 @@
+https://dandiarchive.org/dandiset/000034
+
+DANDI 000034 Electrophysiology Dataset
+----------------------------------------------------------------
+File Count 6
+Size 69.2 GiB
+
+Get DANDI CLI
+----------------------------------------------------------------
+Install the Python client (DANDI CLI) in a Python 3.8+ environment using command:
+pip install "dandi>=0.60.0"
+
+DOWNLOAD electrophysiology data
+-----------------------------------------------------------------
+env neuro_py312: 
+pip install "dandi>=0.60.0"
+includes: pynwb
+
+dandi download DANDI:000034/0.211030.0713
+
+SpikeInterface is a Python framework designed to make the analysis of extracellular 
+electrophysiology data more accessible and standardized. The SpikeInterface 
+documentation can be found at https://spikeinterface.readthedocs.io/en/latest/.
+
+8,108,108 / 384
+19,200,000 / 384   600s
+3,148,820 / 1024
+
+27,000,000 / 248
+spikeTimes 258
+spikeTimes 319
+
+Q: how to identify spike times?
+
+
+
+
+
+
